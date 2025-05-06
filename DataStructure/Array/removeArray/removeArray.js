@@ -1,4 +1,5 @@
-function removearray(){
+function removearray(arr){
+    
     for(let i=index; i < arr.length - 1; i++){
         arr[i] = arr[i+1]
     }
@@ -7,7 +8,7 @@ function removearray(){
 }
 
 const arr = [1,20,5,78,30];
-const index = 2;
-const output = removearray();
+const index = 20;
+const output = removearray(arr);
 console.log(output)
 
