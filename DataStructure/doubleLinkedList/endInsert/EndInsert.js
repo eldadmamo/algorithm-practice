@@ -1,4 +1,4 @@
-let head = 0;
+let head = null;
 
 function EndInsert(val){
     const temp = {data:val, prev: null, next: null};
