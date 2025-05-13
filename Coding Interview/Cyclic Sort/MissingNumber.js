@@ -8,7 +8,7 @@ function missingNumber(arr){
         }
     }
     for(let i=0; i < arr.length; i++){
-        if(arr[i] != i){
+        if(arr[i] !== i){
             return i;
         }
     }
@@ -17,3 +17,4 @@ function missingNumber(arr){
 
 const arr = [3,5,1,4,0];
 console.log(missingNumber(arr));
+
