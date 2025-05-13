@@ -18,7 +18,7 @@ function search(key, val) {
 }
 
 const val = {
-    data: 1,
+    data: 10,
     next: {
         data: 2,
         next: {
@@ -27,7 +27,7 @@ const val = {
                 data: 7,
                 next: {
                     data: 0,
-                    next: null
+                    next: 2
                 }
             }
         }
